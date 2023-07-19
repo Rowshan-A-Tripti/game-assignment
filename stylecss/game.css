@@ -37,9 +37,10 @@
     font-family: Work Sans;
     font-size: 14px;
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
+    gap:20px;
     padding-top: 38px;
-    padding-right: 100px;
+    padding-right: 100px;;
 }
 .btn-primary{
     width: 162px;
@@ -96,7 +97,6 @@
     align-items: center;
     background: #FFF;
     justify-content: space-around;
-    gap: 20px;
 }
 
 .btn-one{
@@ -226,8 +226,8 @@
 .biggest-img{
     width: 80%;
     position:relative;
-    top: 8rem;
-    left: 10rem;
+    top: 3rem;
+    left: 7rem;
 }
 .big-img{
     width: 40%;
@@ -309,4 +309,48 @@ footer{
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    .start{
+        flex-direction: column;
+    }
+    .star-logo{
+        flex-direction: column;
+    }
+    .starter{
+        flex-direction: column;
+    }
+    .play{
+        flex-direction: column;
+    }
+
+    .first-part{
+        flex-direction: column;
+    }
+    .third-part{
+        flex-direction: column;
+
+    }
+    .part-three-img{
+        flex-direction: column;
+    }
+    .img-container{
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    
+    .last-list{
+        flex-direction: column;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 50px;
+    }
+    nav, .teams-container {
+        flex-direction: column;
+    }
 }
