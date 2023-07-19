@@ -3,6 +3,7 @@
 .head{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    width: 100%;
 }
 .banner-title{
     font-family: Work Sans;
@@ -83,6 +84,7 @@
     font-family: Work Sans;
     font-size: 14px;
     font-weight: 300;
+    margin-top: -20px;
     padding-left: 5px;
     padding-bottom: 10px;
 }
@@ -92,6 +94,7 @@
 .first-part{
     display: flex;
     align-items: center;
+    background: #FFF;
     justify-content: space-around;
     gap: 20px;
 }
@@ -101,15 +104,209 @@
     border-radius: 38px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 16px 32px;
-    gap: 10px;
+    gap: 20px;
     color: #FFF;
     font-family: Work Sans;
     font-size: 16px;
     text-transform: uppercase;
 }
+.btn-part{
+    display: flex;
+    gap: 25px;
+}
+.btn-two{
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 16px 32px;
+    gap: 20px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 .group-img{
     display: block;
     margin: 0 auto;
     width: auto;
     height: auto;
+}
+
+.second-part-name{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.second-text{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.img-one{
+    display: grid;
+}
+.img-one-name{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-break: auto;
+}
+.img-two{
+    display: grid;
+}
+.img-two-name{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.img-three{
+    display: grid;
+}
+.img-three-name{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.img-four{
+    display: grid;
+}
+.img-four-name{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.play-name{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.third-part{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.part-three-title{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+.biggest-img{
+    width: 80%;
+    position:relative;
+    top: 8rem;
+    left: 10rem;
+}
+.big-img{
+    width: 40%;
+    position: relative;
+    top: -90px;
+}
+.part-three-text{
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 16px;
+    width: 300px;
+    padding-top: 20px;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.game-container div{
+    border: 2px solid red;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.game-container img{
+    width: 30px;
+}
+.game-container span{
+    color:#0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.new{
+    background: #8758F1;
+    border-radius: 8px;
+    background-color: none;
+    display: flex;
+    gap: 0.5rem;
+}
+.new img{
+    width:50px;
+}
+.new span{
+    color:#0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+footer{
+    background: #0B0223;
+    align-items: center;
+}
+.last{
+    display: flex;
+    justify-content:center;
+    padding-top: 80px;
+}
+.last-logo{
+    width: 86px;
+    height:40px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.footer-title{
+    display: flex;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.last-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
