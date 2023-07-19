@@ -248,6 +248,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-bottom: 20px;
 }
 .game-container div{
     border: 2px solid red;
@@ -256,27 +257,13 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .game-container img{
     width: 30px;
 }
 .game-container span{
-    color:#0B0223;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 3rem;
-}
-.new{
-    background: #8758F1;
-    border-radius: 8px;
-    background-color: none;
-    display: flex;
-    gap: 0.5rem;
-}
-.new img{
-    width:50px;
-}
-.new span{
     color:#0B0223;
     font-size: 16px;
     font-weight: 600;
@@ -307,8 +294,36 @@ footer{
 }
 .last-list{
     display: flex;
+    color: #FFF;
+    font-family: Work sans;
+    font-size: 14px;
     justify-content: center;
     gap: 40px;
+}
+.foot-icons{
+    font: 3.5rem;
+    text-align: center;
+    margin: 3rem 0;
+    gap:3rem;
+}
+.foot-icons i {
+    gap: 3rem;
+}
+.policy-text,
+footer > p {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-family: Work sans;
+  font-weight: 500;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.policy-text li {
+  margin-right: 3rem;
 }
 
 @media screen and (max-width: 576px) {
