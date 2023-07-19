@@ -3,7 +3,7 @@
 .head{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    width: 100%;
+    width: auto;
 }
 .banner-title{
     font-family: Work Sans;
